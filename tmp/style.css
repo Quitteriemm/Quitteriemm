@@ -1,0 +1,80 @@
+
+body {
+  background: #FFFAEF;
+  color: rbg(30,30,30);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  font-family: font-family: 'Montserrat', sans-serif;;
+  color: #D23333;
+}
+
+a{
+  text-decoration: none;
+  color: #383838;
+}
+
+a:hover{
+  color:#454545;
+}
+
+/*class design*/
+.card-white{
+  background: white;
+  padding:30px;
+  width:500px;
+  margin:10px auto;
+  border-radius: 3px:;
+  box-shadow:
+}
+
+.img-circle{
+  border-radius:50%;
+}
+
+.btn-red {
+  background:;
+  padding:;
+  color:;
+  font-weight:;
+  border-radius:;
+  transition: all 0.3s ease;
+}
+
+.text-center{
+  text-align:center;
+}
+/*(desccription div)*/
+.list-inline{
+  list-style:none;
+  padding-left: none;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+  font-size: 30px
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+#banner {
+  background-image: url("example.jpg");
+  background-size: cover;
+}
+/*grouping*/
+.img-rounded, .img-circle{}
+
+/*pseudi class*/
+
+.btn-red:hover{}
+
+/*descendant selector= tous les element de la class navbar*/
+.navbar li {}
+
+.navbar > li> a  /*slector direct */
